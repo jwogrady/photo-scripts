@@ -28,4 +28,9 @@ for subdir, dirs, files in os.walk(dr):
         print(n)
 
         os.rename(filePath, newFilePath)
-        
+    
+# flatten directory struction
+# mv ./*/**/*(.D) . 
+
+# resize image
+# magick mogrify -resize 1080 *.jpg
